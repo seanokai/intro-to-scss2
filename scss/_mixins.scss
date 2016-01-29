@@ -1,0 +1,16 @@
+@mixin button($bg-color){        //⬅︎ The argument passed is in the round brackets
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: $bg-color; //⬅︎ It gets used within the mixin here
+  &:hover {
+  	background: lighten($bg-color, 20%);
+
+  }         
+}
+
+
+// or use this for button hover background: $grey-light;

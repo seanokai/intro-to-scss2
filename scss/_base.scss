@@ -1,0 +1,16 @@
+ 
+// Colors
+ $orange: #ff7963;
+ $grey-dark: #4B484B;
+ $white: #fff;
+ $grey-light: #C5BFC5;
+
+
+// You can use varibales inside variables
+$primary: $grey-dark;
+$secondary: $orange;
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,300);
+// Font families
+$helvetica: Helvetica, Arial, sans-serif;
+$titillium-web: 'Titillium Web', sans-serif;

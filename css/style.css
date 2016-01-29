@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,300);
+html {
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.border, ul {
+  border: 1px solid #4B484B;
+}
+
+.border p, ul p {
+  color: #ff7963;
+}
+
+@media only screen and (min-width: 30em) {
+  .border, ul {
+    border-color: #ff7963;
+  }
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #4B484B;
+}
+
+.primary-btn:hover {
+  background: #7f7a7f;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #ff7963;
+}
+
+.secondary-btn:hover {
+  background: #ffd1c9;
+}
+
+/*# sourceMappingURL=style.css.map */

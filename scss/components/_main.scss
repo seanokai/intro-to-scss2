@@ -1,0 +1,31 @@
+html{
+
+	font-family: $titillium-web;
+}
+
+h1{
+	font-family: $helvetica;
+}
+
+.border {
+	border:1px solid $grey-dark;
+	p {
+		color: $orange;
+	}
+
+	@media only screen and (min-width: 30em) {
+		border-color: $orange;
+	}
+}
+
+.primary-btn {
+	@include button ($grey-dark);
+}
+
+.secondary-btn {
+	@include button ($orange);
+}
+
+ul{
+	@extend .border;
+}
