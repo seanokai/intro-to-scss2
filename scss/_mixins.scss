@@ -7,7 +7,7 @@
   color: #fff;
   background: $bg-color; //⬅︎ It gets used within the mixin here
   &:hover {
-  	background: lighten($bg-color, 20%);
+  	background: lighten($bg-color, 8%);
 
   }         
 }

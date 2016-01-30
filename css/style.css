@@ -13,6 +13,7 @@ h1 {
 
 .border p, ul p {
   color: #ff7963;
+  margin-left: 1em;
 }
 
 @media only screen and (min-width: 30em) {
@@ -32,7 +33,7 @@ h1 {
 }
 
 .primary-btn:hover {
-  background: #7f7a7f;
+  background: #605c60;
 }
 
 .secondary-btn {
@@ -46,7 +47,7 @@ h1 {
 }
 
 .secondary-btn:hover {
-  background: #ffd1c9;
+  background: #ff9c8c;
 }
 
 /*# sourceMappingURL=style.css.map */
